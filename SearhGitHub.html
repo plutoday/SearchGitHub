@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<!--
+comments
+-->
+<head>
+<title>Github Hub</title>
+<link rel="stylesheet"  href="site.css"/>
+</head>
+<body>
+<div class="container">
+  <header>
+    <nav>
+     <ol>
+      <li><a href=“http://baidu.com“>Home</a></li>
+      <li><a href=“http://baidu.com“>Contact</a></li>
+      <li><a href=“http://baidu.com“>About</a></li>
+     </ol>
+    </nav>
+    <div><img src="https://www.btcnn.com/wp-content/uploads/2018/06/GitHub-logo-2-imagen.jpg" class="bordered-image" width="100" height="50" /></div>
+    <div>This is a site to <i>search</i> <a href="http://www.github.com">Github</a> for interesting project.</div>
+  </header>
+  <section id="main">
+   <p>This is a simple site to <b>search</b> Github for fun.</p>
+   <form action="http://wilder.azurewebsites.net/echo" class="bordered-image simple-form" id="gitHubSearchForm" method="get">
+    <label for="SearhPhrase"/ >SearhPhrase:</label>
+    <input type="text" name="SearhPhrase"/ id="SearhPhrase"></br>
+    <label for="checkbox"/ >checkbox:</label>
+    <input type="checkbox" name="Userstars" id="Userstars" checked=true />Userstars?</br>
+    <label for="LaguageChoice"/ >LaguageChoice:</label>
+    <select name = "LaguageChoice" id="LaguageChoice">
+       <option selected>All<option/>
+       <option>JS<option/>
+       <option>C#<option/>
+       <option>JAVA<option/>
+    </select>
+    </br>
+    <input type="submit" value="search"/>
+   </form>
+   <div id="results" class="bordered-image">
+     <button id="toggleButton">Hide</button>
+     <div id="resultList">This is where results live.</div>
+   </div>
+  </section>
+  <footer>
+    &copy 2018 HelloWorld,LLC
+  </footer>
+</div>
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="index.js">
+</script>
+</body>
+</html>
