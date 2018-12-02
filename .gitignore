@@ -1,0 +1,6 @@
+.DS_STORE
+node_modules
+.tmp
+# Ignore npm debug log
+npm-debug.log
+builds/development/images/**
